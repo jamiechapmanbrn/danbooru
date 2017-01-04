@@ -1,4 +1,3 @@
-set :user, "albert"
+set :user, "james"
 set :rails_env, "production"
-server "sonohara.donmai.us", :roles => %w(web app db), :primary => true, :user => "albert"
-server "hijiribe.donmai.us", :roles => %w(web app), :user => "albert"
+server "magi", :roles => %w(web app db), :primary => true, :user => "james"
